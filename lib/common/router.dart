@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../pages/index.dart';
 import '../pages/tabbar.dart';
 import 'package:Demo/pages/InkWell.dart';
+import 'package:Demo/pages/ListTile.dart';
 
 class NameRouter {
   static Map<String, WidgetBuilder> routes;
@@ -19,6 +20,7 @@ class NameRouter {
       '/index': (context) => IndexPage(),
       '/tabbar': (context) => TabbarPage(),
       '/inkwell': (context) => InkWellPage(),
+      '/listtile': (context) => ListTilePage(),
     };
     return routes;
   }
