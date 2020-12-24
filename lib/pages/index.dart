@@ -20,7 +20,7 @@ class Page extends State<IndexPage> {
             ListItem(title: 'InkWell', url: '/inkwell'),
             ListItem(title: 'SingleChildScrollView', url: '/inkwell'),
             ListItem(title: 'ListTile', url: '/listtile'),
-            ListItem(title: 'Icon', url: '/inkwell'),
+            ListItem(title: 'Icon', url: '/icon'),
             ListItem(title: 'Container', url: '/inkwell'),
             ListItem(title: 'AppBar', url: '/inkwell'),
             ListItem(title: 'Scaffold', url: '/inkwell'),
